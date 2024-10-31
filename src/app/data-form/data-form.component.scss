@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: transparent;
+  padding-top: 16px;
+  width: 100%;
+  max-width: var(--max-width-content);
+  background-color: var(--mdc-outlined-card-container-color);
+}
+
+.content {
+  padding: 16px;
+  padding-top: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: stretch;
+}

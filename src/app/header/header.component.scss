@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.toolbar {
+  background-color: var(--mdc-outlined-card-container-color);
+}
+
+.content {
+  width: 100%;
+  max-width: var(--max-width-heading);
+  margin: 0 auto;
+}

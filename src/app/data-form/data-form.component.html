@@ -1,0 +1,12 @@
+<mat-card class="wrapper">
+  <mat-card-content class="content">
+    <form class="form" [formGroup]="dataForm" (ngSubmit)="submit()">
+      <mat-form-field appearance="outline">
+        <mat-label>Введите значение</mat-label>
+        <input matInput [formControl]="dataForm.controls.value" maxlength="4" />
+      </mat-form-field>
+
+      <button type="submit" mat-flat-button>Применить</button>
+    </form>
+  </mat-card-content>
+</mat-card>
